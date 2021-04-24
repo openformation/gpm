@@ -18,6 +18,8 @@ jobs:
         run: nvm install && nvm use
       - name: "Installing dependencies ..."
         run: npm i
+      - name: "Executing test suite ..."
+        run: npm test
       - name: "Building ..."
         run: npm run build
       - name: "Releasing ..."
