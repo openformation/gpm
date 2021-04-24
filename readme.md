@@ -12,7 +12,7 @@
 ## ✨ Features
 
 - Allows fast switching between GCP projects.
-- Takes care of your [Application Default Credentials (ADC)](https://cloud.google.com/sdk/gcloud/reference/auth/application-default) so that you don't have to gather them over and over again.
+- Takes care of your [Application Default Credentials (ADC)](https://cloud.google.com/sdk/gcloud/reference/auth/application-default) so that you don't have to gather them after switching a project.
 - Support for defining your GCP project directly in your repository.
 
 ## 🏃🏽‍♀️ Motivation
