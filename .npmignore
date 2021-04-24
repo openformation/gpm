@@ -1,0 +1,9 @@
+.github
+docs
+src
+.gitignore
+.npmignore
+.nvmrc
+.gpmrc
+.npmrc
+tsconfig.json
