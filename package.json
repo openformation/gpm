@@ -11,18 +11,9 @@
     "compile": "tsc",
     "test": "NODE_ENV=test jest",
     "build": "npm run clean && npm run compile",
-    "release": "npm run build && semantic-release --branches main"
+    "release": "npm run build && semantic-release"
   },
   "repository": "git@github.com:openformation/gpm.git",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
-    "tag": "latest"
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
-    }
-  },
   "license": "MIT",
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.1",
@@ -53,5 +44,19 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "husky": {
+    "hooks": {
+      "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
+    }
+  },
+  "release": {
+    "branches": [
+      "main"
+    ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
   }
 }
