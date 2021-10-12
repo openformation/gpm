@@ -15,6 +15,7 @@
     "preserveSymlinks": true,
     "rootDir": "src",
     "outDir": "dist",
+    "useUnknownInCatchVariables": false,
 
     "forceConsistentCasingInFileNames": true,
     // Don't automatically include anything.
