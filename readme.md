@@ -131,5 +131,3 @@ The project is using [commitizen](https://github.com/commitizen/cz-cli) for ensu
 ## 👩🏽‍⚖️ Copyright
 
 Copyright (C), 2021 Open Formation GmbH – Hamburg – Germany All Rights Reserved
-
-Unauthorized copying of the files within this repository, via any medium is strictly prohibited proprietary and confidential.
